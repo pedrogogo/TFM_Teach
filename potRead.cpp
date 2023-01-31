@@ -1,11 +1,11 @@
 void setup()
 {
-
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop()
 {
-  if (digitalRead(4) == 1) 
+  if (digitalRead(7) == 1) 
   {
     digitalWrite(13,HIGH);
   } else {
